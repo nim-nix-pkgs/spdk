@@ -10,7 +10,7 @@
   inputs.src-spdk-master.flake = false;
   inputs.src-spdk-master.ref   = "refs/heads/master";
   inputs.src-spdk-master.owner = "nimscale";
-  inputs.src-spdk-master.repo  = "spdk.git";
+  inputs.src-spdk-master.repo  = "spdk";
   inputs.src-spdk-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
